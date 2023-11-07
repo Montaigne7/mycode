@@ -11,5 +11,4 @@ print(proto)
 
 # extend a list into another and display to screen
 protoa.extend(proto2)
-print(protoa)
-
+print(proto)
