@@ -10,8 +10,8 @@ def main():
     brisingr = books[3]
     inheritance = books[0]
     
-    print("Put the Inheritance Cycle books in order")
-    print(", ".join(books))
+    print("Please put the Inheritance Cycle books in order:")
+    print("    ".join(books))
     
     choice_1 = " "
     attempt = 0
@@ -27,7 +27,7 @@ def main():
         else:
             print("That is incorrect, try again.")
     
-    print(choice_1)
+    print(eragon)
     choice_2 = " "
     attempt = 0 
     
@@ -42,7 +42,7 @@ def main():
         else:
             print("That is incorrect, try again.")
 
-    print(f"{choice_1}, {choice_2}")
+    print(f"{eragon}, {eldest}")
     choice_3 = " "
     attempt = 0 
     
@@ -57,7 +57,7 @@ def main():
         else:
             print("That is incorrect, try again.")
 
-    print(f"{choice_1}, {choice_2}, {choice_3}")
+    print(f"{eragon}, {eldest}, {brisingr}")
     choice_4 = " "
     attempt = 0 
     
@@ -72,7 +72,7 @@ def main():
         else:
             print("That is incorrect, try again.")
 
-    print(f"{choice_1}, {choice_2}, {choice_3}, {choice_4}")
+    print(f"{eragon}, {eldest}, {brisingr}, {inheritance}")
 
 if __name__ == "__main__":
     main()
